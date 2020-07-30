@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function () {
         dummy_canvas_ctx.clearRect(0, 0, w, h);
         dummy_canvas_ctx.drawImage(video, 0, 0, w, h);
 
-        ctracker.draw(video_canvas);
+        /*ctracker.draw(video_canvas);*/
 
         const positions = ctracker.getCurrentPosition();
         if (positions !== false) {
